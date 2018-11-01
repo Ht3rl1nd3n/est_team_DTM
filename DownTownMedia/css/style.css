@@ -1,0 +1,684 @@
+/*
+FONTS:
+font-family: bebas-kai, sans-serif;
+font-family: tasse, sans-serif;
+COLORS:
+rgb(235, 181, 84) - GOLD
+rgb(255, 255, 255) - WHITE
+rgb(54, 54, 54) - GREY */
+/* My custom styling */
+#contact nav a:nth-child(4), #projects nav a:nth-child(3),#team nav a:nth-child(2), #home nav a:nth-child(1) {
+  color: rgb(235, 181, 84);
+  font-style: italic;
+}
+@media screen and (min-width: 400px){
+  button {
+    margin: .25rem 0 .5rem 2rem;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    background-color: rgb(235, 181, 84);
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 5px;
+  }
+  header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: rgb(235, 181, 84) solid 3px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    float: right;
+    margin-bottom: .1rem;
+  }
+  nav a {
+    text-decoration: none;
+    margin: 0 .5rem 0 .5rem;
+    color: rgb(54, 54, 54);
+    font-family: bebas-kai, sans-serif;
+    font-size: 1rem;
+    transition: letter-spacing 2s 0s;
+  }
+  nav a:hover {
+    color: rgb(235, 181, 84);
+    letter-spacing: .05rem;
+  }
+  nav a:active {
+    color: rgb(235, 181, 84);
+  }
+  .logo {
+    width: 19%;
+    margin: .5rem .25rem .35rem .5rem;
+    max-height: 185px;
+    max-width: 168px;
+  }
+  main{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  /*Home Page*/
+  .outside_company, .services {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+  }
+  /*End of Home*/
+  /*Team Page*/
+  .avatar {
+    float: left;
+    margin-right: .5rem;
+    width: 40%;
+    max-width: 208px;
+    max-height: 208px;
+    margin-left: .5rem;
+  }
+  h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.25rem;
+    margin-left: 1rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  p {
+    font-family: nobel, sans-serif;
+    font-size: 1rem;
+    letter-spacing: .07rem;
+    margin: .25rem 2rem .25rem 1rem;
+    color: rgb(255, 255, 255);
+  }
+  /*End of Team Page*/
+  /*Projects Page*/
+  .current_project h2 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+    margin-left: 2rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .current_project h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.25rem;
+    margin-left: 2rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .current_project p {
+    font-family: nobel, sans-serif;
+    font-size: 1.125rem;
+    letter-spacing: .05rem;
+    margin: .25rem 2rem .25rem 2.25rem;
+    color: rgb(255, 255, 255);
+  }
+  article {
+    background-color: rgb(54, 54, 54);
+    padding: .5rem 0 1rem 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+  }
+  .current_project article div {
+    padding-bottom: 6rem;
+    margin-bottom: .5rem;
+  }
+  article div img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    max-width: 730px;
+  }
+  .past_project h2 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+    margin-left: 2rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .past_project h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.25rem;
+    margin-left: 2rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .past_project p {
+    font-family: nobel, sans-serif;
+    font-size: 1.125rem;
+    letter-spacing: .05rem;
+    margin: .25rem 2rem .25rem 2.25rem;
+    color: rgb(255, 255, 255);
+  }
+  .past_project article div {
+    padding-bottom: .5rem;
+  }
+  /*End of Projects Page*/
+  /*Contact Page*/
+  h2 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.5rem;
+    padding-top: .5rem;
+    margin-left: 1rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  /*End of Contact Page*/
+  footer{
+    padding: .5rem;
+    background-color: rgb(255, 255, 255);
+    border-top: rgb(235, 181, 84) solid 3px;
+  }
+  footer p{
+    font-family: bebas-kai, sans-serif;
+    float: right;
+    font-size: .85rem;
+    margin-top: .75rem;
+    color: rgb(54, 54, 54);
+  }
+  .social_media {
+    float: left;
+  }
+}
+@media screen and (min-width: 565px){
+  button {
+    margin: .25rem 0 .5rem 3rem;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    background-color: rgb(235, 181, 84);
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 5px;
+  }
+  nav a {
+    text-decoration: none;
+    margin: 0 .5rem 0 .5rem;
+    color: rgb(54, 54, 54);
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.25rem;
+    transition: letter-spacing 2s 0s;
+  }
+  nav a:hover {
+    color: rgb(235, 181, 84);
+    letter-spacing: .15rem;
+  }
+  /*Team Page*/
+  .avatar {
+    float: left;
+    margin-right: .5rem;
+    width: 45%;
+    max-width: 208px;
+    max-height: 208px;
+    margin-bottom: .5rem;
+  }
+  h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  p {
+    font-family: nobel, sans-serif;
+    font-size: 1.125rem;
+    letter-spacing: .07rem;
+    margin: .25rem 2rem .25rem 1rem;
+    color: rgb(255, 255, 255);
+  }
+  /*End of Team Page*/
+  /*Projects Page*/
+  .current_project p{
+    margin-left: 3rem;
+    margin-right: .5rem;
+  }
+  .current_project h2{
+    margin-left: 3rem;
+    margin-right: .5rem;
+  }
+  .current_project h3{
+    margin-left: 3.25rem;
+    margin-right: .5rem;
+  }
+  .past_project p{
+    margin-left: 3rem;
+    margin-right: 0rem;
+  }
+  .past_project h2{
+    margin-left: 3rem;
+    margin-right: .5rem;
+  }
+  .past_project h3{
+    margin-left: 3rem;
+    margin-right: .5rem;
+  }
+  /*End of Projects Page*/
+  /*Contact Page*/
+  h2 {
+    font-size: 1.75rem;
+  }
+  /*End of Contact Page*/
+}
+@media screen and (min-width: 720px){
+  button {
+    margin: .25rem 0 .5rem 3rem;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    background-color: rgb(235, 181, 84);
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 5px;
+  }
+  header {
+    background-color: rgb(255, 255, 255);
+    border-bottom: rgb(235, 181, 84) solid 3px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  nav {
+    display: flex;
+    flex-flow: row nowrap;
+    float: right;
+    margin-bottom: .2rem;
+  }
+  nav a {
+    text-decoration: none;
+    margin: 0 1rem 0rem .5rem;
+    color: rgb(54, 54, 54);
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.5rem;
+    transition: letter-spacing 2s 0s;
+  }
+  nav a:hover {
+    color: rgb(235, 181, 84);
+    letter-spacing: .25rem;
+  }
+  nav a:active {
+    color: rgb(235, 181, 84);
+  }
+  .logo {
+    width: 25%;
+    margin: .5rem .25rem .5rem .5rem;
+    max-height: 186px;
+    max-width: 168px;
+  }
+  main{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+  }
+  /*Home Page*/
+  .outside_company, .services {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+  }
+  /*End of Home*/
+  /*Team Page*/
+  .avatar {
+    float: left;
+    margin-right: .5rem;
+    width: 36%;
+    max-width: 208px;
+    max-height: 208px;
+  }
+  h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.25rem;
+    margin-left: 1rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  p {
+    font-family: nobel, sans-serif;
+    font-size: 1.125rem;
+    letter-spacing: .07rem;
+    margin: .25rem 2rem .25rem 1rem;
+    color: rgb(255, 255, 255);
+  }
+  .team_article {
+    background-color: rgb(54, 54, 54);
+    padding: .5rem 0 1rem 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+    height: 200px;
+  }
+  /*End of Team Page*/
+  /*Projects Page*/
+  .current_project {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .past_project {
+    width: 100%;
+    margin: 0 auto;
+  }
+  article {
+    background-color: rgb(54, 54, 54);
+    padding: .5rem 0 1rem 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+  }
+  article div img {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: .5rem;
+    max-width: 730px;
+  }
+  .current_project h2 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.75rem;
+    padding-top: .5rem;
+    margin-left: 3rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .current_project h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.25rem;
+    margin-left: 3rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .current_project p {
+    font-family: nobel, sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: .125rem;
+    margin: .25rem 2.5rem .25rem 3rem;
+    color: rgb(255, 255, 255);
+  }
+  .past_project h2 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.75rem;
+    padding-top: .5rem;
+    margin-left: 3rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .past_project h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.25rem;
+    margin-left: 3rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .past_project p {
+    font-family: nobel, sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: .125rem;
+    margin: .25rem 2.35rem .25rem 3rem;
+    color: rgb(255, 255, 255);
+  }
+  .past_project article div {
+    padding-bottom: .5rem;
+  }
+  /*End of Projects Page*/
+  footer{
+    padding: .5rem;
+    background-color: rgb(255, 255, 255);
+    border-top: rgb(235, 181, 84) solid 3px;
+  }
+  footer p{
+    font-family: bebas-kai, sans-serif;
+    float: right;
+    font-size: .95rem;
+    margin-top: .95rem;
+    color: rgb(54, 54, 54);
+  }
+  .social_media {
+    float: left;
+    margin-bottom: .5rem;
+  }
+}
+@media screen and (min-width: 1085px){
+  button {
+    margin: .25rem 0 .5rem 4rem;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    background-color: rgb(235, 181, 84);
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 5px;
+  }
+  /*Team Page*/
+  .avatar {
+    float: left;
+    margin-right: .5rem;
+    width: 36%;
+    max-width: 208px;
+    max-height: 208px;
+  }
+  h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  p {
+    font-family: nobel, sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: .07rem;
+    margin: .25rem 2rem .25rem 1rem;
+    color: rgb(255, 255, 255);
+  }
+  /*End of Team Page*/
+  /*Projects Page*/
+  nav a{
+    font-size: 1.75rem;
+  }
+  .current_project {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .past_project {
+    width: 100%;
+    margin: 0 auto;
+  }
+  article {
+    background-color: rgb(54, 54, 54);
+    padding: .5rem 0 1rem 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+  }
+  article div img {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: .5rem;
+    max-width: 730px;
+  }
+  .current_project h2 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.75rem;
+    padding-top: .5rem;
+    margin-left: 4rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .current_project h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.25rem;
+    margin-left: 4rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .current_project p {
+    font-family: nobel, sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: .125rem;
+    margin: .25rem 0rem .25rem 4rem;
+    color: rgb(255, 255, 255);
+  }
+  .past_project h2 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.75rem;
+    padding-top: .5rem;
+    margin-left: 4rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .past_project h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.25rem;
+    margin-left: 4rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .past_project p {
+    font-family: nobel, sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: .125rem;
+    margin: .25rem 0rem .25rem 4rem;
+    color: rgb(255, 255, 255);
+  }
+  .past_project article div {
+    padding-bottom: .5rem;
+  }
+  /*End of Projects Page*/
+  footer{
+    padding: .5rem;
+    background-color: rgb(255, 255, 255);
+    border-top: rgb(235, 181, 84) solid 3px;
+  }
+  footer p{
+    font-family: bebas-kai, sans-serif;
+    float: right;
+    font-size: 1rem;
+    margin-top: .95rem;
+    color: rgb(54, 54, 54);
+  }
+  .social_media {
+    float: left;
+    margin-bottom: .5rem;
+  }
+}
+@media screen and (min-width: 1440px){
+  button {
+    margin: .25rem 0 .5rem 5rem;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    background-color: rgb(235, 181, 84);
+    border: 2px solid rgb(54, 54, 54);
+    border-radius: 5px;
+  }
+  /*Team Page*/
+  .avatar {
+    float: left;
+    margin-right: .5rem;
+    width: 36%;
+    max-width: 208px;
+    max-height: 208px;
+  }
+  h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.75rem;
+    margin-left: 1rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  p {
+    font-family: nobel, sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .07rem;
+    margin: .25rem 2rem .25rem 1rem;
+    color: rgb(255, 255, 255);
+  }
+  /*End of Team Page*/
+  /*Projects Page*/
+  nav a{
+    font-size: 2rem;
+  }
+  .current_project {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .past_project {
+    width: 100%;
+    margin: 0 auto;
+  }
+  article {
+    background-color: rgb(54, 54, 54);
+    padding: .5rem 0 1rem 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+  }
+  article div img {
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+    margin-top: .5rem;
+    max-width: 730px;
+  }
+  .current_project h2 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.75rem;
+    padding-top: .5rem;
+    margin-left: 5rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .current_project h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.25rem;
+    margin-left: 5rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .current_project p {
+    font-family: nobel, sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: .125rem;
+    margin: .25rem 0rem .25rem 5rem;
+    color: rgb(255, 255, 255);
+  }
+  .past_project h2 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.75rem;
+    padding-top: .5rem;
+    margin-left: 5rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .past_project h3 {
+    font-family: bebas-kai, sans-serif;
+    font-size: 1.25rem;
+    margin-left: 5rem;
+    margin-bottom: .25rem;
+    color: rgb(235, 181, 84);
+  }
+  .past_project p {
+    font-family: nobel, sans-serif;
+    font-size: 1.25rem;
+    letter-spacing: .125rem;
+    margin: .25rem 0rem .25rem 5rem;
+    color: rgb(255, 255, 255);
+  }
+  .past_project article div {
+    padding-bottom: .5rem;
+  }
+  /*End of Projects Page*/
+  /*Contact Page*/
+  h2 {
+    font-size: 2rem;
+  }
+  /*End of Contact Page*/
+  footer{
+    padding: .5rem;
+    background-color: rgb(255, 255, 255);
+    border-top: rgb(235, 181, 84) solid 3px;
+  }
+  footer p{
+    font-family: bebas-kai, sans-serif;
+    float: right;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: rgb(54, 54, 54);
+  }
+  .social_media {
+    float: left;
+    margin-bottom: .5rem;
+  }
+}
